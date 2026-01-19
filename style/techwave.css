@@ -140,3 +140,22 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 80px;
 }
+
+/*--------- why choose----- */
+.why-choose-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+.why-card{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.big-card-1{
+    grid-row: span 2;
+}
+.big-card-2{
+    grid-column: span 2;
+}
