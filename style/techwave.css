@@ -142,20 +142,85 @@
 }
 
 /*--------- why choose----- */
+.why-choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.why-choose h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+}
 .why-choose-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+   width: 1200px;
+   margin-bottom: 120px;
 
 }
 .why-card{
     background: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
     padding: 40px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.why-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
 }
 .big-card-1{
     grid-row: span 2;
 }
 .big-card-2{
     grid-column: span 2;
+}
+
+
+.Episode-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #1a0b2e;
+   
+}
+.episode-card{
+    width: 380px;
+    border-radius: 24px;
+}
+.video-box{
+    border-radius: 24px 24px 0 0;
+    overflow: hidden;
+}
+.episode-card-info h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    
+}
+.episode-card-info{
+    padding: 24px;
+    background-color: #230e3d;
+    color: white;
+
+}
+.duration{
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: #00ff88;
+}
+.episode-card-info p{
+    margin-bottom: 12px;
+
 }
