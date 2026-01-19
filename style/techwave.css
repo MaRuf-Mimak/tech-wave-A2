@@ -186,6 +186,22 @@
     grid-column: span 2;
 }
 
+/* ------------Featured Episodes-------------- */
+
+.featued-contaner{
+    background-color: #1a0b2e;
+}
+
+.featued-contaner h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+   padding-top: 120px;
+   padding-bottom: 40px;
+}
+
+
 
 .Episode-card-container{
     display: flex;
@@ -223,4 +239,12 @@
 .episode-card-info p{
     margin-bottom: 12px;
 
+}
+
+.host-container{
+    display: flex;
+    justify-content:space-around    ;
+    align-items: center;
+    
+    background-color: #230e3d;
 }
