@@ -190,6 +190,10 @@
 
 .featued-contaner{
     background-color: #1a0b2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .featued-contaner h2{
@@ -243,8 +247,23 @@
 
 .host-container{
     display: flex;
-    justify-content:space-around    ;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    
+    width: 1200px;
+    border-radius: 40px;
+    padding: 40px;
+    gap: 24px;
+    color: white;
+    margin-bottom: 120px;
     background-color: #230e3d;
+}
+.host-container img{
+    width: 400px;
+
+}
+.host-container h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
