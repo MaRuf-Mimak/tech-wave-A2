@@ -11,11 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/techwave.css">
+    <link rel="stylesheet" href="./style/techwave.css" />
   </head>
   <body>
     <header>
-      <nav class="flex justify-between dark-blue ">
+      <nav class="flex justify-between dark-blue">
         <h1 class="text-3xl font-semibold">
           <span class="text-white">Tech</span
           ><span class="gradient-logo">Wave</span>
@@ -29,14 +29,34 @@
           Subscribe
         </button>
       </nav>
-      <section class="banner">
-        <div class="banner-bg">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            odit esse soluta accusantium eiutemporibus vel quo distinctio
-            delectus. Quaerat dolores mollitia recusandae vel reprehenderit
-            incidunt id quo ducimus iste?
+      <section class="banner-bg flex flex-col justify-center items-center">
+        <div class="circle-img w-[350px] h-[350px] flex justify-center items-center">
+            
+            <img class="w-[200px] h-[200px]" src="./assets/microphone.png" alt="" />
+          </div>
+        <div class="hero">
+          <h1 class="text-white">TechWave</h1>
+          <p class="text-white">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
           </p>
+
+          <ul class="flex flex-row gap-2 mt-6">
+            <li class="gradient-color btn flex flex-row gap-2">
+              <img class="btn-icon" src="./assets/spotify.png" alt="" /><button
+                type="submit"
+              >
+                Listen on Spotify
+              </button>
+            </li>
+            <li class="btn-2 text-green flex flex-row gap-2">
+              <img class="btn-icon" src="./assets/message.png" alt="" /><button
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </li>
+          </ul>
         </div>
       </section>
     </header>
