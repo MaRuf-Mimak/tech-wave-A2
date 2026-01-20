@@ -5,6 +5,10 @@
   font-optical-sizing: auto;
 }
 
+.hide-display {
+    display: none;
+}
+
 /* ----Color style----- */
 .dark-blue {
   background-color: #1a0b2e;
@@ -20,31 +24,41 @@
   color: #00ff88;
 }
 
+
+
 .navbar{
     display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 16px 24px;
+  
 
   position: relative;
 
 }
 
+
 .logo{
     font-size: 28px;
     font-weight: 600;
+    margin-left: 200px;
 }
 .nav-links{
     display: grid;
-   grid-template-columns: repeat(3, auto);
+   grid-template-columns: repeat(3, 1fr);
    gap: 20px;
    list-style: none;
+   /* margin-left:-200px; */
+   margin-right: 200px;
+ 
 
 }
 .menu{
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-right: 200px ;
+    /* padding-right: 200px; */
 }
 .hamburger {
   display: none;
@@ -57,8 +71,11 @@
 }
 
 .subscribe{
+    font-size: 16px;
+    font-weight: 600;
     padding: 8px 16px;
   border-radius: 10px;
+  color: white;
 }
 .gradient-logo {
   background: linear-gradient(to top, #f7e93f, #fb09b4, #9100f8);
@@ -188,6 +205,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 }
 .why-choose h2{
@@ -214,6 +232,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+   
 }
 .why-card h3{
     font-size: 24px;
@@ -267,12 +286,16 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 12px;
+   
     
 }
 .episode-card-info{
     padding: 24px;
     background-color: #230e3d;
     color: white;
+     border-radius: 0 0 24px 24px;
+    overflow: hidden;
+   
 
 }
 .duration{
@@ -344,9 +367,7 @@
     margin-bottom: 120px;
 }
 
-.hide-display{
-    display: none;
-}
+
 
 /* Small device: up to 576 px */
 
@@ -442,6 +463,14 @@ width: 90%;
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: -2px;
+    
+    
+
 }
     
 
