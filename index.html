@@ -14,21 +14,26 @@
     <link rel="stylesheet" href="./style/techwave.css" />
   </head>
   <body>
-    <header class="hide-display">
-      <nav class="flex justify-between dark-blue">
-        <h1 class="text-3xl font-semibold">
+    <header class="">
+      <nav class="navbar dark-blue">
+        <h1 class="logo">
           <span class="text-white">Tech</span
           ><span class="gradient-logo">Wave</span>
         </h1>
-        <ul class="grid grid-cols-3 text-white">
+        <input type="checkbox" name="" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger"><img src="./assets/hamburger-menu.png" alt=""></label>
+        <div class="menu">
+          <ul class="nav-links text-white">
           <li><a href="">About</a></li>
           <li><a href="">Episodes</a></li>
           <li><a href="">Host</a></li>
         </ul>
-        <button class="gradient-color px-4 py-2 rounded-[10px]">
+        <button class="gradient-color subscribe">
           Subscribe
         </button>
+        </div>
       </nav>
+      
       <section class="banner-bg flex flex-col justify-center items-center">
         <div
           class="circle-img w-[350px] h-[350px] flex justify-center items-center"
